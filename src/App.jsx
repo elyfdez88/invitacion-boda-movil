@@ -108,7 +108,7 @@ function App() {
 
         .locationButton {
           position: absolute;
-          top: 51%;
+          top: 70%;
           left: 50%;
           transform: translateX(-50%);
           width: 40%;
