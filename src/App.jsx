@@ -126,7 +126,7 @@ function App() {
 
         .giftButton {
             position: absolute;
-            top: 72.5%;
+            top: 80%;
             left: 50%;
             transform: translateX(-50%);
             width: 42%;
