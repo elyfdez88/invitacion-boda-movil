@@ -108,7 +108,7 @@ function App() {
 
         .locationButton {
           position: absolute;
-          top: 46%;
+          top: 51%;
           left: 50%;
           transform: translateX(-50%);
           width: 40%;
@@ -126,7 +126,7 @@ function App() {
 
         .giftButton {
           position: absolute;
-          top: 68%;
+          top: 72%;
           left: 50%;
           transform: translateX(-50%);
           width: 40%;
@@ -146,14 +146,13 @@ function App() {
 
         .confirmSection {
           position: absolute;
-          top: 86%;
+          bottom: 8%;
           left: 50%;
           transform: translateX(-50%);
           width: 68%;
           display: flex;
           flex-direction: column;
-          gap: 8px;
-          z-index: 20;
+          gap: 10px;
         }
 
         .confirmSection input {
@@ -175,7 +174,6 @@ function App() {
             width: 55%;
             margin: auto;
             z-index: 10;
-            top: 84%;
           }
 
         .yesButton{
