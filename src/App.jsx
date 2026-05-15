@@ -108,7 +108,7 @@ function App() {
 
         .locationButton {
           position: absolute;
-          top: 70%;
+          top: 49.5%;
           left: 50%;
           transform: translateX(-50%);
           width: 40%;
@@ -125,37 +125,34 @@ function App() {
         /* REGALO */
 
         .giftButton {
-            position: absolute;
-            top: 65%;
-            left: 90%;
-            transform: translateX(-50%);
-            width: 42%;
-            text-align: center;
-            background: #a67c2d;
-            color: white;
-            padding: 6px 8px;
-            border-radius: 40px;
-            text-decoration: none;
-            font-size: 11px;
-            font-weight: bold;
-            box-shadow: 0 5px 14px rgba(0,0,0,.18);
-            z-index: 10;
-          }
+          position: absolute;
+          top: 72%;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 40%;
+          text-align: center;
+          background: #a67c2d;
+          color: white;
+          padding: 5px 12px;
+          border-radius: 40px;
+          text-decoration: none;
+          font-size: 13px;
+          font-weight: bold;
+          box-shadow: 0 5px 14px rgba(0,0,0,.18);
+          z-index: 10;
+        }
 
         /* CONFIRMACIÓN */
 
-        .confirmSection input {
-          padding: 9px 12px;
-          border-radius: 30px;
-          border: 2px solid #d8c7a3;
-          background: white;
-          font-size: 12px;
-          outline: none;
-          user-select: text;
-          -webkit-user-select: text;
-          cursor: text;
-          caret-color: #a67c2d;
-          color: #7b6848;
+        .confirmSection {
+          position: absolute;
+          bottom: 8%;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 68%;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
         }
 
         .confirmSection input {
@@ -168,13 +165,13 @@ function App() {
         }
 
         .yesButton,
-          .noButton {
-            padding: 6px 8px;
+        .noButton {
+            padding: 8px;
             border-radius: 30px;
-            font-size: 10px;
+            font-size: 12px;
             cursor: pointer;
             font-weight: bold;
-            width: 52%;
+            width: 55%;
             margin: auto;
             z-index: 10;
           }
